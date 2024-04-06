@@ -151,7 +151,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #fff;
-		font-weight: 600;
+		font-weight: 800;
 	}
 
 	em, i {
@@ -191,7 +191,7 @@ input, select, textarea {
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.50em;
 		line-height: 1.75em;
 	}
 
@@ -2153,6 +2153,11 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		#footer > header {
+			width: 20%;
+			margin: 0 auto;
 		}
 
 		ul.alt {
