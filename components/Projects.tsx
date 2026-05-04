@@ -4,10 +4,8 @@ export default function Projects() {
       title: 'Spotify Recommender System',
       description: 'A personalized playlist/song recommendation system built with Spotify API and Graph Neural Networks',
       achievements: [
-        'Queried Spotify web api for feature data on a large scale, and made data processing pipelines\
-         to properly shape data formachine learning and graph creation',
+        'Collaboration with peers Shone Patil and Jiayun Wang to use deep learning methods on graph data to create a recommender for personalized song playlists with Spotify data.',
         'Created GraphSAGE embeddings and multi layer perceptron classifiers in pytorch',
-        'Analyzed recommender results and link prediction results and created readable and informative visualizations'
       ],
       tech: ['Pytorch', 'Graph Neural Networks', 'SptotifyAPI'],
       frontendLink: '#',
@@ -19,37 +17,36 @@ export default function Projects() {
       description: '2020 COVID-19 Data Challenge in Border Communities',
       achievements: [
         'Used web data to determine risk factors for school openings in San Diego',
-        'Combine data from many different sources, joining on spatial features',
+        'Combine spatial data with public CDC data, joining on spatial features.',
         'Created a K-means clustering algorithm in python to cluster based on feature data',
-        'Made maps and visualizations to showcase results.'
       ],
       tech: ['ArcGIS', 'Geopandas', 'Scikit-Learn', 'K-Means'],
       frontendLink: '#',
       backendLink: '#',
       image: '/images/covid.png'
     },
-    {
-      title: 'Medical Imaging Fraud Detection',
-      description: '',
-      achievements: [
+    // {
+    //   title: 'Medical Imaging Fraud Detection',
+    //   description: '',
+    //   achievements: [
         
-      ],
-      tech: [],
-      frontendLink: '#',
-      backendLink: '#',
-      image: 'images/brain.png'
-    },
-    {
-      title: 'NAS and Media Server',
-      description: '',
-      achievements: [
+    //   ],
+    //   tech: [],
+    //   frontendLink: '#',
+    //   backendLink: '#',
+    //   image: 'images/brain.png'
+    // },
+    // {
+    //   title: 'NAS and Media Server',
+    //   description: '',
+    //   achievements: [
         
-      ],
-      tech: [],
-      frontendLink: '#',
-      backendLink: '#',
-      image: 'images/server.png'
-    }
+    //   ],
+    //   tech: [],
+    //   frontendLink: '#',
+    //   backendLink: '#',
+    //   image: 'images/server.png'
+    // }
   ];
 
   return (

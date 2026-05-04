@@ -6,12 +6,11 @@ export default function Career() {
       period: 'Oct 2022 - Current',
       description: 'Developing NLP libraries and LLM powered models to extract salient details and assess approvability of various health claims/requests.',
       achievements: [
-        'Reduced processing time for clinical staff by 30% with automated data extraction tools',
-        'Built custom libraries for information extraction from unstructured medical documents',
-        'Hosted local LLMs on-prem for HIPAA compliance and data security',
-        'Custom trained medical corpus embedding models for semantic retrieval',
-        'Trained convolution neural networks for medical image classification',
-        'Full stack development of webapps for clients with Flask/FastAPI backend frameworks and Jquery frontend'
+        'Developed and lead team in integration of on-prem LLM solutions into rule based text extraction engines for unstructured medical data',
+        'Trained models for auto and semi-automated clinical decision making for Medicare authorization requests, saving clients several thousands per yearin costs.',
+        'Improved existing medical extraction engine for medical authorization criteria, resulting in a 30% reduction in clinical review time.',
+        'Built image classification and figure extraction for medical texts including MRI scans, handwriting, visual field diagrams etc.',
+        'Developed full-stack solutions, building client-facing frontend interfaces to complement backend data pipelines and models.'        
       ]
     },
     {
@@ -20,10 +19,9 @@ export default function Career() {
       period: 'Jul 2021 - Current',
       description: 'Automation of data pipelines and API for companion webapp/mobile application.',
       achievements: [
-        'Wrote custom scoring/ranking algorithms based on vehicle data to rank best matches from existing databases',
-        'Created elegant vehicle search and match engine.',
-        'Created different web scrapers to download data from websites automatically with Selenium',
-        'Transformed audio data for deep learning audio classification with pytorch'
+        'Developed scoring/ranking algorithms based on vehicle data for public databases.',
+        'Cleaning and shaping vehicle data and engine audio data for audio classification with PyTorch.',
+        'Analyzing time series vehicle data for insights from various test drives.'
       ]
     },
     {
