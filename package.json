@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "next": "14.2.5",
