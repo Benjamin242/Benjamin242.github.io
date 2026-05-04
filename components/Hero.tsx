@@ -9,7 +9,7 @@ export default function Hero() {
 
           <div className="text-lg max-w-2xl mx-auto text-blue-50">
             <ul className="mb-6">
-              <li><a href="/files/resume_benjamin_becze.pdf">Resume/CV</a></li>
+              <li><a href="/files/benjamin_becze_resume.pdf">Resume/CV</a></li>
               <li><a href="https://www.linkedin.com/in/benjamin-becze-307b541b6/">LinkedIn</a></li>
               <li><a href="https://github.com/Benjamin242/">Github</a></li>
             </ul>
