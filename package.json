@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "next build && gh-pages -d out"
+    "predeploy": "npm run build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\"",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -22,7 +23,7 @@
     "tailwindcss": "^3.4.4",
     "typescript": "^5"
   },
-  "homepage": "https://benjamin242.github.io/Benjamin242.github.io",
+  "homepage": "https://benjamin242.github.io",
   "export:gh-pages": "npm run build && touch ./out/.nojekyll"
 
 }
